@@ -13,4 +13,12 @@ so far in my first steps i have  learned the following things :
 1.git clone 
 2.git status
 3.git add
-4.git push
+5.git commit "commit""description"
+4.git push -u origin master 
+5.ssh-keygen -t  rsa -b 4096 -C "your_email@example.com"
+after this use 
+clip  < ~/.ssh/id_rsa.pub
+add this to the ssh keys at github
+
+eval  "$(ssh-agent -s)" 
+ssh-add ~/.ssh/testkey.pub
