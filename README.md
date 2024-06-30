@@ -52,7 +52,6 @@ git diff <filename>
 this will show the difference between the files but also it wont be terminating the way either.When this happens use any of the options below:
  q + enter/return key(worked for me)
  ctrl + c to quit  
-=======
 "hello World"
 
 if you need to delete the code  use :
