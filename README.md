@@ -21,7 +21,7 @@ clip  < ~/.ssh/id_rsa.pub
 add this to the ssh keys at github
 
 eval  "$(ssh-agent -s)" 
-ssh-add ~/.ssh/testkey.pub
+ssh-add ~/testkey
 
 #branching in git
 
@@ -41,3 +41,6 @@ git clean -f
 
 pushing a new branch  to github
 git push --set-upstream origin new-feature
+
+restoration:
+git restore <filename>
