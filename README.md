@@ -55,3 +55,5 @@ this will show the difference between the files but also it wont be terminating 
 =======
 "hello World"
 
+if you need to delete the code  use :
+git branch -d branch-name
