@@ -28,7 +28,7 @@ ssh-add ~/.ssh/testkey.pub
 git branch
 
 To create  a new branch use :
-git checkout -b  <branch-name>
-git branch
+    git checkout -b  <branch-name>
+    git branch
 
-checking whether all are addded
+    checking whether all are addded
