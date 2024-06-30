@@ -22,3 +22,11 @@ add this to the ssh keys at github
 
 eval  "$(ssh-agent -s)" 
 ssh-add ~/.ssh/testkey.pub
+
+#branching in git
+
+git branch
+
+To create  a new branch use :
+git checkout -b  <branch-name>
+git branch
