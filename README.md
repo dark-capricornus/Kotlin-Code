@@ -40,7 +40,14 @@ make a pemanent removal :
 git clean -f
 
 pushing a new branch  to github
-git push --set-upstream origin new-feature
+git push --set-upstream(-u) origin new-feature
 
 restoration:
 git restore <filename>
+
+if you need to see the difference  between the files use :
+git diff <filename>
+
+this will show the difference between the files but also it wont be terminating the way either.When this happens use any of the options below:
+ q + enter/return key(worked for me)
+ ctrl + c to quit  
