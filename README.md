@@ -21,7 +21,7 @@ clip  < ~/.ssh/id_rsa.pub
 add this to the ssh keys at github
 
 eval  "$(ssh-agent -s)" 
-ssh-add ~/.ssh/testkey.pub
+ssh-add ~/testkey
 
 #branching in git
 
@@ -31,7 +31,7 @@ To create  a new branch use :
     git checkout -b  <branch-name>
     git branch
 
-    checking whether all are addded
+#checking whether all are addded
 
 in order to remove untracked files 
 make a dry run :
@@ -39,4 +39,19 @@ git clean -n
 make a pemanent removal :
 git clean -f
 
+
+pushing a new branch  to github
+git push --set-upstream(-u) origin new-feature
+
+restoration:
+git restore <filename>
+
+if you need to see the difference  between the files use :
+git diff <filename>
+
+this will show the difference between the files but also it wont be terminating the way either.When this happens use any of the options below:
+ q + enter/return key(worked for me)
+ ctrl + c to quit  
+=======
 "hello World"
+
