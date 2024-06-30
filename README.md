@@ -38,3 +38,6 @@ make a dry run :
 git clean -n
 make a pemanent removal :
 git clean -f
+
+pushing a new branch  to github
+git push --set-upstream origin new-feature
