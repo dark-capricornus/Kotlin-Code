@@ -13,7 +13,7 @@ so far in my first steps i have  learned the following things :
 1.git clone 
 2.git status
 3.git add
-5.git commit "commit""description"
+5.git commit "commit""description" or git commit -am "desc"
 4.git push -u origin master 
 5.ssh-keygen -t  rsa -b 4096 -C "your_email@example.com"
 after this use 
@@ -52,8 +52,10 @@ git diff <filename>
 this will show the difference between the files but also it wont be terminating the way either.When this happens use any of the options below:
  q + enter/return key(worked for me)
  ctrl + c to quit  
-=======
 "hello World"
 
 if you need to delete the code  use :
 git branch -d branch-name
+
+Unstage a last commit :
+git reset HEAD~1
