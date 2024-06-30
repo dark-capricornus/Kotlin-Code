@@ -31,7 +31,7 @@ To create  a new branch use :
     git checkout -b  <branch-name>
     git branch
 
-    checking whether all are addded
+#checking whether all are addded
 
 in order to remove untracked files 
 make a dry run :
