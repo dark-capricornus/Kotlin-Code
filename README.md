@@ -13,7 +13,7 @@ so far in my first steps i have  learned the following things :
 1.git clone 
 2.git status
 3.git add
-5.git commit "commit""description"
+5.git commit "commit""description" or git commit -am "desc"
 4.git push -u origin master 
 5.ssh-keygen -t  rsa -b 4096 -C "your_email@example.com"
 after this use 
@@ -57,3 +57,4 @@ this will show the difference between the files but also it wont be terminating 
 
 if you need to delete the code  use :
 git branch -d branch-name
+ 
